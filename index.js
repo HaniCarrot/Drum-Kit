@@ -18,11 +18,11 @@ function playSound(key) {
       break;
 
     case "a":
-      new Audio("sounds/tom-2.mp3").play();
+      new Audio("tom-2.mp3").play();
       break;
 
     case "s":
-      new Audio("sounds/tom-3.mp3").play();
+      new Audio("tom-3.mp3").play();
       break;
 
     case "d":
@@ -46,3 +46,4 @@ function playSound(key) {
   }
 
 }
+
