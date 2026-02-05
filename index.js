@@ -14,31 +14,31 @@ document.addEventListener("keydown", function (event) {
 function playSound(key) {
   switch (key) {
     case "w":
-      const audio = new Audio("sounds/clap.mp3");
+      new Audio("Drum-Kit/sounds/tom-1.mp3").play();
       break;
 
     case "a":
-      new Audio("sounds/tom-2.mp3").play();
+      new Audio("Drum-Kit/sounds/tom-2.mp3").play();
       break;
 
     case "s":
-      new Audio("sounds/tom-3.mp3").play();
+      new Audio("Drum-Kit/sounds/tom-3.mp3").play();
       break;
 
     case "d":
-      new Audio("sounds/sounds/tom-4.mp3").play();
+      new Audio("Drum-Kit/sounds/sounds/tom-4.mp3").play();
       break;
 
     case "j":
-      new Audio("sounds/snare.mp3").play();
+      new Audio("Drum-Kit/sounds/snare.mp3").play();
       break;
 
     case "k":
-      new Audio("sounds/crash.mp3").play();
+      new Audio("Drum-Kit/sounds/crash.mp3").play();
       break;
 
     case "l":
-      new Audio("sounds/kick-bass.mp3").play();
+      new Audio("Drum-Kit/sounds/kick-bass.mp3").play();
       break;
 
     default:
@@ -46,6 +46,7 @@ function playSound(key) {
   }
 
 }
+
 
 
 
