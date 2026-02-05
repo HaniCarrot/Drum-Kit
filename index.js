@@ -14,7 +14,7 @@ document.addEventListener("keydown", function (event) {
 function playSound(key) {
   switch (key) {
     case "w":
-      new Audio("./sounds/tom-1.mp3").play();
+      new Audio("<audio src="/sounds/tom-1.mp3"></audio>").play();
       break;
 
     case "a":
@@ -46,6 +46,7 @@ function playSound(key) {
   }
 
 }
+
 
 
 
